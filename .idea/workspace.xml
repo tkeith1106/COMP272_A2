@@ -1,27 +1,152 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+    <option name="SCOPE_TYPE" value="4" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5ad72cc-196b-4647-a3ea-997227e50302" name="Changes" comment="Setup of A2_Q1 folder" />
+    <list default="true" id="f5ad72cc-196b-4647-a3ea-997227e50302" name="Changes" comment="Decided to just setup all the source folders for all of the questions">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A2_Q2/A2_Q2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A2_Q3/A2_Q3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A2_Q4/A2_Q4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A2_Q4/src/Hash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A2_Q4/src/HashTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A2_Q4/test/HashTableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A2_Q5/A2_Q5.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2_Q1/A2_Q1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/A2_Q1/A2_Q1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2_Q4/src/Q4.java" beforeDir="false" afterPath="$PROJECT_DIR$/A2_Q4/src/Q4.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2LecEsWrldQOhkVXxEFQbzn3Fdg" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
     "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "/Users/ty/Documents/Java/COMP272/COMP272_A2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17204303",
+    "project.structure.side.proportion": "0.32840237",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.HashTableTest">
+    <configuration name="HashTableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A2_Q4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HashTableTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashTableTest.testGetWithHashCollision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A2_Q4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HashTableTest" />
+      <option name="METHOD_NAME" value="testGetWithHashCollision" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashTableTest.testPrintInfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A2_Q4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HashTableTest" />
+      <option name="METHOD_NAME" value="testPrintInfo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashTableTest.testSetMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A2_Q4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HashTableTest" />
+      <option name="METHOD_NAME" value="testSetMethod" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashTableTest.testSetWithHashCollision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A2_Q4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HashTableTest" />
+      <option name="METHOD_NAME" value="testSetWithHashCollision" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HashTableTest" />
+        <item itemvalue="JUnit.HashTableTest.testPrintInfo" />
+        <item itemvalue="JUnit.HashTableTest.testSetWithHashCollision" />
+        <item itemvalue="JUnit.HashTableTest.testSetMethod" />
+        <item itemvalue="JUnit.HashTableTest.testGetWithHashCollision" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -30,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676234881617</updated>
-      <workItem from="1676234883140" duration="303000" />
+      <workItem from="1676234883140" duration="21242000" />
     </task>
     <task id="LOCAL-00001" summary="Setup of A2_Q1 folder">
       <created>1676235174283</created>
@@ -39,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676235174283</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Decided to just setup all the source folders for all of the questions">
+      <created>1676235718077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676235718077</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -58,6 +190,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setup of A2_Q1 folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup of A2_Q1 folder" />
+    <MESSAGE value="Decided to just setup all the source folders for all of the questions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Decided to just setup all the source folders for all of the questions" />
   </component>
 </project>
