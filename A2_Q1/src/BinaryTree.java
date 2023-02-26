@@ -9,6 +9,7 @@ public class BinaryTree {
         // create object of new node
         BTNode newNode = new BTNode(data);
 
+        // if node is null then assign the value
         if (this.root == null) {
             this.root = newNode;
         }
@@ -17,6 +18,7 @@ public class BinaryTree {
             BTNode focus = this.root;
             BTNode parent;
 
+            // assign values by traversing nodes
             while (true) {
                 parent = focus;
                 if (data < focus.data) {
@@ -25,7 +27,6 @@ public class BinaryTree {
                         parent.childLeft = newNode;
                         return;
                     }
-
                 }
                 else {
                     focus = focus.childRight;
@@ -40,6 +41,7 @@ public class BinaryTree {
 
     // Find node with value
     public BTNode findNode(int val, BTNode node) {
+        // get node based on value and the input node; generally the root of the BT
         if (node == null || node.data == val) {
             return node;
         }
@@ -84,6 +86,38 @@ public class BinaryTree {
         }
     }
 
+    // Inorder traversal
+    public void inOrder(BTNode node, List<BTNode> list) {
+        if (node != null) {
+            inOrder(node.childLeft, list);
+            list.add(node);
+            inOrder(node.childRight, list);
+        }
+    }
+
+    public void printInOrder(BTNode node) {
+        if (node != null) {
+            printInOrder(node.childLeft);
+            System.out.print(node.data + ", ");
+            printInOrder(node.childRight);
+        }
+    }
+
+    // Inorder next node
+    public BTNode inOrderNext(int data) {
+        // get node that corresponds to data
+        BTNode node = findNode(data, this.root);
+        List<BTNode> list = new ArrayList<>();
+        inOrder(root, list);
+        int i = list.indexOf(node);
+        if (i < list.size() - 1) {
+            return list.get(i + 1);
+        } else {
+            return null;
+        }
+    }
+
+
     // Postorder traversal
     public void postOrder(BTNode node, List<BTNode> list) {
         if (node != null) {
@@ -95,9 +129,9 @@ public class BinaryTree {
 
     public void printPostOrder(BTNode node) {
         if (node != null) {
-            System.out.print(node.data + ", ");
             printPostOrder(node.childLeft);
             printPostOrder(node.childRight);
+            System.out.print(node.data + ", ");
         }
     }
 
@@ -114,6 +148,5 @@ public class BinaryTree {
             return null;
         }
     }
-
 
 }

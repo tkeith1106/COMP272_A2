@@ -8,12 +8,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5ad72cc-196b-4647-a3ea-997227e50302" name="Changes" comment="Solutions and Test Cases for all of Q4.">
-      <change afterPath="$PROJECT_DIR$/A2_Q1/src/BTNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A2_Q1/src/BinaryTree.java" afterDir="false" />
+    <list default="true" id="f5ad72cc-196b-4647-a3ea-997227e50302" name="Changes" comment="partial completion of Q1's three methods. need to complete the inorderNext() method. then comment and setup/refactor the main method to make it more succint.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2_Q1/src/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/A2_Q1/src/BinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/A2_Q1/src/Q1.java" beforeDir="false" afterPath="$PROJECT_DIR$/A2_Q1/src/Q1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A2_Q4/src/Q4.java" beforeDir="false" afterPath="$PROJECT_DIR$/A2_Q4/src/Q4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,10 +124,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Q1" />
-        <item itemvalue="Application.Q4" />
-        <item itemvalue="JUnit.HashTableTest" />
-        <item itemvalue="JUnit.HashTableTest.testPrintInfo" />
         <item itemvalue="JUnit.HashTableTest.testSetWithHashCollision" />
+        <item itemvalue="JUnit.HashTableTest.testPrintInfo" />
+        <item itemvalue="JUnit.HashTableTest" />
+        <item itemvalue="Application.Q4" />
       </list>
     </recent_temporary>
   </component>
@@ -142,7 +140,9 @@
       <option name="presentableId" value="Default" />
       <updated>1676234881617</updated>
       <workItem from="1676234883140" duration="21923000" />
-      <workItem from="1676936388922" duration="14481000" />
+      <workItem from="1676936388922" duration="15075000" />
+      <workItem from="1677207118253" duration="286000" />
+      <workItem from="1677208751028" duration="10428000" />
     </task>
     <task id="LOCAL-00001" summary="Setup of A2_Q1 folder">
       <created>1676235174283</created>
@@ -165,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676265959241</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="partial completion of Q1's three methods. need to complete the inorderNext() method. then comment and setup/refactor the main method to make it more succint.">
+      <created>1676959338792</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676959338792</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +193,7 @@
     <MESSAGE value="Setup of A2_Q1 folder" />
     <MESSAGE value="Decided to just setup all the source folders for all of the questions" />
     <MESSAGE value="Solutions and Test Cases for all of Q4." />
-    <option name="LAST_COMMIT_MESSAGE" value="Solutions and Test Cases for all of Q4." />
+    <MESSAGE value="partial completion of Q1's three methods. need to complete the inorderNext() method. then comment and setup/refactor the main method to make it more succint." />
+    <option name="LAST_COMMIT_MESSAGE" value="partial completion of Q1's three methods. need to complete the inorderNext() method. then comment and setup/refactor the main method to make it more succint." />
   </component>
 </project>
