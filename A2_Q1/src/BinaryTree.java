@@ -61,7 +61,7 @@ public class BinaryTree {
         }
     }
 
-    // print preorder traversal
+    // just for visualization to prove order is correct will not write test case
     public void printPreOrder(BTNode node) {
         if (node != null) {
             System.out.print(node.data + ", ");
@@ -95,6 +95,7 @@ public class BinaryTree {
         }
     }
 
+    // just for visualization to prove order is correct will not write test case
     public void printInOrder(BTNode node) {
         if (node != null) {
             printInOrder(node.childLeft);
@@ -127,6 +128,7 @@ public class BinaryTree {
         }
     }
 
+    // just for visualization to prove order is correct will not write test case
     public void printPostOrder(BTNode node) {
         if (node != null) {
             printPostOrder(node.childLeft);
