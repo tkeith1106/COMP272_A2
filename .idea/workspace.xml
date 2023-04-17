@@ -8,10 +8,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5ad72cc-196b-4647-a3ea-997227e50302" name="Changes" comment="completion go Q2Q1 with worst case print-outs.">
-      <change afterPath="$PROJECT_DIR$/A2_Q1/test/BTTest.java" afterDir="false" />
+    <list default="true" id="f5ad72cc-196b-4647-a3ea-997227e50302" name="Changes" comment="test cases to prove code is working for A2Q1">
+      <change afterPath="$PROJECT_DIR$/A2_Q2/src/BTNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A2_Q2/src/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A2_Q2/src/ValidateBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A2_Q2/test/BTValidationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A2_Q1/A2_Q1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/A2_Q1/A2_Q1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2_Q2/A2_Q2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/A2_Q2/A2_Q2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2_Q2/src/Q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/A2_Q2/src/Q2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2_Q3/A2_Q3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2_Q3/src/Q3.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +61,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/ty/Documents/Java/COMP272/COMP272_A2/A2_Q1",
+    "last_opened_file_path": "/Users/ty/Documents/Java/COMP272/COMP272_A2/A2_Q2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,61 +75,66 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/A2_Q2" />
       <recent name="$PROJECT_DIR$/A2_Q1" />
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/A2_Q2/src" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.BTTest">
-    <configuration name="BTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="A2_Q1" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BTTest" />
-      <option name="TEST_OBJECT" value="class" />
+  <component name="RunManager" selected="Application.Q2">
+    <configuration name="Q2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q2" />
+      <module name="A2_Q2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BTTest.testAddNode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="A2_Q1" />
+    <configuration name="BTValidationTest.testIsValidBSTWithEmptyTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A2_Q2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BTTest" />
-      <option name="METHOD_NAME" value="testAddNode" />
+      <option name="MAIN_CLASS_NAME" value="BTValidationTest" />
+      <option name="METHOD_NAME" value="testIsValidBSTWithEmptyTree" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BTTest.testAddNodes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="A2_Q1" />
+    <configuration name="BTValidationTest.testIsValidBSTWithInvalidBST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A2_Q2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BTTest" />
-      <option name="METHOD_NAME" value="testAddNodes" />
+      <option name="MAIN_CLASS_NAME" value="BTValidationTest" />
+      <option name="METHOD_NAME" value="testIsValidBSTWithInvalidBST" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BTTest.testInOrderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="A2_Q1" />
+    <configuration name="BTValidationTest.testIsValidBSTWithInvalidBSTWithDuplicateValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A2_Q2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BTTest" />
-      <option name="METHOD_NAME" value="testInOrderTraversal" />
+      <option name="MAIN_CLASS_NAME" value="BTValidationTest" />
+      <option name="METHOD_NAME" value="testIsValidBSTWithInvalidBSTWithDuplicateValues" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BTTest.testPreOrderTraversal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="A2_Q1" />
+    <configuration name="BTValidationTest.testIsValidBSTWithValidBST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="A2_Q2" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BTTest" />
-      <option name="METHOD_NAME" value="testPreOrderTraversal" />
+      <option name="MAIN_CLASS_NAME" value="BTValidationTest" />
+      <option name="METHOD_NAME" value="testIsValidBSTWithValidBST" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -130,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BTTest" />
-        <item itemvalue="JUnit.BTTest.testInOrderTraversal" />
-        <item itemvalue="JUnit.BTTest.testPreOrderTraversal" />
-        <item itemvalue="JUnit.BTTest.testAddNodes" />
-        <item itemvalue="JUnit.BTTest.testAddNode" />
+        <item itemvalue="Application.Q2" />
+        <item itemvalue="JUnit.BTValidationTest.testIsValidBSTWithInvalidBSTWithDuplicateValues" />
+        <item itemvalue="JUnit.BTValidationTest.testIsValidBSTWithInvalidBST" />
+        <item itemvalue="JUnit.BTValidationTest.testIsValidBSTWithValidBST" />
+        <item itemvalue="JUnit.BTValidationTest.testIsValidBSTWithEmptyTree" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +161,8 @@
       <workItem from="1676234883140" duration="21923000" />
       <workItem from="1676936388922" duration="15075000" />
       <workItem from="1677207118253" duration="286000" />
-      <workItem from="1677208751028" duration="12041000" />
+      <workItem from="1677208751028" duration="13950000" />
+      <workItem from="1681688954938" duration="5372000" />
     </task>
     <task id="LOCAL-00001" summary="Setup of A2_Q1 folder">
       <created>1676235174283</created>
@@ -186,7 +199,21 @@
       <option name="project" value="LOCAL" />
       <updated>1677370510584</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test cases to prove code is working for A2Q1">
+      <created>1677371921690</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1677371921690</updated>
+    </task>
+    <task id="LOCAL-00007" summary="test cases to prove code is working for A2Q1">
+      <created>1677371929664</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1677371929664</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +236,17 @@
     <MESSAGE value="Solutions and Test Cases for all of Q4." />
     <MESSAGE value="partial completion of Q1's three methods. need to complete the inorderNext() method. then comment and setup/refactor the main method to make it more succint." />
     <MESSAGE value="completion go Q2Q1 with worst case print-outs." />
-    <option name="LAST_COMMIT_MESSAGE" value="completion go Q2Q1 with worst case print-outs." />
+    <MESSAGE value="test cases to prove code is working for A2Q1" />
+    <option name="LAST_COMMIT_MESSAGE" value="test cases to prove code is working for A2Q1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/A2_Q2/src/Q2.java</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
