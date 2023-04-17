@@ -8,17 +8,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5ad72cc-196b-4647-a3ea-997227e50302" name="Changes" comment="test cases to prove code is working for A2Q1">
-      <change afterPath="$PROJECT_DIR$/A2_Q2/src/BTNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A2_Q2/src/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A2_Q2/src/ValidateBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A2_Q2/test/BTValidationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="f5ad72cc-196b-4647-a3ea-997227e50302" name="Changes" comment="a2q2 completion and its test cases">
+      <change afterPath="$PROJECT_DIR$/A2_Q5/src/BTNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A2_Q5/src/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A2_Q5/src/PPIBinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A2_Q2/A2_Q2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/A2_Q2/A2_Q2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A2_Q2/src/Q2.java" beforeDir="false" afterPath="$PROJECT_DIR$/A2_Q2/src/Q2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A2_Q3/A2_Q3.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/A2_Q3/src/Q3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2_Q5/src/Q5.java" beforeDir="false" afterPath="$PROJECT_DIR$/A2_Q5/src/Q5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +56,7 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
     "jdk.selected.JAVA_MODULE": "11",
-    "last_opened_file_path": "/Users/ty/Documents/Java/COMP272/COMP272_A2/A2_Q2",
+    "last_opened_file_path": "/Users/ty/Documents/Java/COMP272/COMP272_A2/A2_Q5/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,6 +70,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/A2_Q5/src" />
       <recent name="$PROJECT_DIR$/A2_Q2" />
       <recent name="$PROJECT_DIR$/A2_Q1" />
       <recent name="$PROJECT_DIR$" />
@@ -92,7 +88,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q2">
+  <component name="RunManager" selected="Application.Q5">
     <configuration name="Q2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q2" />
       <module name="A2_Q2" />
@@ -100,12 +96,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BTValidationTest.testIsValidBSTWithEmptyTree" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="A2_Q2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BTValidationTest" />
-      <option name="METHOD_NAME" value="testIsValidBSTWithEmptyTree" />
-      <option name="TEST_OBJECT" value="method" />
+    <configuration name="Q5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q5" />
+      <module name="A2_Q5" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q5" />
         <item itemvalue="Application.Q2" />
         <item itemvalue="JUnit.BTValidationTest.testIsValidBSTWithInvalidBSTWithDuplicateValues" />
         <item itemvalue="JUnit.BTValidationTest.testIsValidBSTWithInvalidBST" />
         <item itemvalue="JUnit.BTValidationTest.testIsValidBSTWithValidBST" />
-        <item itemvalue="JUnit.BTValidationTest.testIsValidBSTWithEmptyTree" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +155,7 @@
       <workItem from="1676936388922" duration="15075000" />
       <workItem from="1677207118253" duration="286000" />
       <workItem from="1677208751028" duration="13950000" />
-      <workItem from="1681688954938" duration="5372000" />
+      <workItem from="1681688954938" duration="13141000" />
     </task>
     <task id="LOCAL-00001" summary="Setup of A2_Q1 folder">
       <created>1676235174283</created>
@@ -213,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1677371929664</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="a2q2 completion and its test cases">
+      <created>1681703108982</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1681703108982</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,14 +237,21 @@
     <MESSAGE value="partial completion of Q1's three methods. need to complete the inorderNext() method. then comment and setup/refactor the main method to make it more succint." />
     <MESSAGE value="completion go Q2Q1 with worst case print-outs." />
     <MESSAGE value="test cases to prove code is working for A2Q1" />
-    <option name="LAST_COMMIT_MESSAGE" value="test cases to prove code is working for A2Q1" />
+    <MESSAGE value="a2q2 completion and its test cases" />
+    <option name="LAST_COMMIT_MESSAGE" value="a2q2 completion and its test cases" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/A2_Q2/src/Q2.java</url>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/A2_Q5/src/Q5.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/A2_Q5/src/Q5.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
