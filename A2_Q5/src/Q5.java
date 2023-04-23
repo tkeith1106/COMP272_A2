@@ -35,12 +35,16 @@ public class Q5 {
         tree.postOrderNumber();
         tree.inOrderNumber();
 
-        System.out.println("TEST");
-
-//        PPIBTNode node = new PPIBTNode(10);
-//
-//        System.out.println("TEST");
-
-
+        System.out.println("List Values:\n");
+        for (int value : list) {
+            System.out.printf(
+                    "List Value:\t%03d\tPre-Order:\t%03d\t|\tPost-Order:\t%03d\t|\tIn-Order:\t%03d",
+                    tree.findNode(value, tree.root).data,
+                    tree.findNode(value, tree.root).preOrderNumber,
+                    tree.findNode(value, tree.root).postOrderNumber,
+                    tree.findNode(value, tree.root).inOrderNumber
+                    );
+            System.out.println();
+        }
     }
 }
