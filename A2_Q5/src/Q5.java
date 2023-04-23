@@ -38,7 +38,7 @@ public class Q5 {
         System.out.println("List Values:\n");
         for (int value : list) {
             System.out.printf(
-                    "List Value:\t%03d\tPre-Order:\t%03d\t|\tPost-Order:\t%03d\t|\tIn-Order:\t%03d",
+                    "List Value:\t%03d\t||\tPre-Order:\t%03d\t||\tPost-Order:\t%03d\t||\tIn-Order:\t%03d",
                     tree.findNode(value, tree.root).data,
                     tree.findNode(value, tree.root).preOrderNumber,
                     tree.findNode(value, tree.root).postOrderNumber,

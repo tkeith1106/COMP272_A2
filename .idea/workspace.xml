@@ -8,9 +8,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5ad72cc-196b-4647-a3ea-997227e50302" name="Changes" comment="first shot at A2Q5">
+    <list default="true" id="f5ad72cc-196b-4647-a3ea-997227e50302" name="Changes" comment="adding in some messaging to confirm position of each node in the pre, post and in order BST traversals.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A2_Q5/src/Q5.java" beforeDir="false" afterPath="$PROJECT_DIR$/A2_Q5/src/Q5.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A2_Q4/src/Q4.java" beforeDir="false" afterPath="$PROJECT_DIR$/A2_Q4/src/Q4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +93,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Q4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q4" />
+      <module name="A2_Q4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Q5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q5" />
       <module name="A2_Q5" />
@@ -120,23 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BTValidationTest.testIsValidBSTWithValidBST" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="A2_Q2" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BTValidationTest" />
-      <option name="METHOD_NAME" value="testIsValidBSTWithValidBST" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Q5" />
+        <item itemvalue="Application.Q4" />
         <item itemvalue="Application.Q2" />
         <item itemvalue="JUnit.BTValidationTest.testIsValidBSTWithInvalidBSTWithDuplicateValues" />
         <item itemvalue="JUnit.BTValidationTest.testIsValidBSTWithInvalidBST" />
-        <item itemvalue="JUnit.BTValidationTest.testIsValidBSTWithValidBST" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +150,7 @@
       <workItem from="1677207118253" duration="286000" />
       <workItem from="1677208751028" duration="13950000" />
       <workItem from="1681688954938" duration="13601000" />
-      <workItem from="1682285149712" duration="1367000" />
+      <workItem from="1682285149712" duration="2020000" />
     </task>
     <task id="LOCAL-00001" summary="Setup of A2_Q1 folder">
       <created>1676235174283</created>
@@ -218,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681711132865</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adding in some messaging to confirm position of each node in the pre, post and in order BST traversals.">
+      <created>1682287576031</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682287576031</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +248,7 @@
     <MESSAGE value="test cases to prove code is working for A2Q1" />
     <MESSAGE value="a2q2 completion and its test cases" />
     <MESSAGE value="first shot at A2Q5" />
-    <option name="LAST_COMMIT_MESSAGE" value="first shot at A2Q5" />
+    <MESSAGE value="adding in some messaging to confirm position of each node in the pre, post and in order BST traversals." />
+    <option name="LAST_COMMIT_MESSAGE" value="adding in some messaging to confirm position of each node in the pre, post and in order BST traversals." />
   </component>
 </project>

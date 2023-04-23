@@ -25,12 +25,12 @@ public class Q4 {
         HashTable hashTable = new HashTable(keys.length);
 
         // input same value for them all just as a proof of concept
-        String value = "Test Value";
+        String value = "x";
 
         try {
             for (int key : keys) {
                 hashTable.set(key, value);
-                System.out.printf("Key %03d: Value %-5s || ", key, hashTable.get(key));
+                System.out.printf("Key %03d = %-2s >> ", key, hashTable.get(key));
                 hashTable.printKeyInfo(key);
             }
         }
